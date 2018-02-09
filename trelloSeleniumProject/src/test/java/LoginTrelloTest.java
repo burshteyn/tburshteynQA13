@@ -24,9 +24,12 @@ public class LoginTrelloTest {
     
     @Test
     public void LoginTrelloTest() {
-        wd.get("https://trello.com/");
+        //opensite
+        opensite();
         wd.findElement(By.xpath("//div[2]")).click();
-        wd.findElement(By.linkText("Log In")).click();
+        //clickLogInButton
+        clickLogInButton();
+        //
         wd.findElement(By.id("user")).click();
         wd.findElement(By.id("user")).clear();
         wd.findElement(By.id("user")).sendKeys("elena.telran@yahoo.com");
@@ -35,7 +38,15 @@ public class LoginTrelloTest {
         wd.findElement(By.id("password")).sendKeys("12345.com");
         wd.findElement(By.id("login")).click();
     }
-    
+
+    private void clickLogInButton() {
+        wd.findElement(By.linkText("Log In")).click();
+    }
+
+    private void opensite() {
+        wd.get("https://trello.com/");
+    }
+
     @AfterMethod
     public void tearDown() {
         wd.quit();
