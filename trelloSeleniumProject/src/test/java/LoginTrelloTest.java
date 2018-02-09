@@ -29,14 +29,21 @@ public class LoginTrelloTest {
         wd.findElement(By.xpath("//div[2]")).click();
         //clickLogInButton
         clickLogInButton();
-        //
-        wd.findElement(By.id("user")).click();
-        wd.findElement(By.id("user")).clear();
-        wd.findElement(By.id("user")).sendKeys("elena.telran@yahoo.com");
+        enterUserName();
+        enterPassword();
+        wd.findElement(By.id("login")).click();
+    }
+
+    private void enterPassword() {
         wd.findElement(By.id("password")).click();
         wd.findElement(By.id("password")).clear();
         wd.findElement(By.id("password")).sendKeys("12345.com");
-        wd.findElement(By.id("login")).click();
+    }
+
+    private void enterUserName() {
+        wd.findElement(By.id("user")).click();
+        wd.findElement(By.id("user")).clear();
+        wd.findElement(By.id("user")).sendKeys("elena.telran@yahoo.com");
     }
 
     private void clickLogInButton() {
