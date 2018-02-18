@@ -28,6 +28,13 @@ public class TestBase {
         openSite("https://trello.com");
     }
 
+    @AfterClass
+    public void tearDown() {
+        wd.quit();
+    }
+
+    //__________________________________________
+
     protected void confirmLogInButton() {
         wd.findElement(By.id("login")).click();
     }
@@ -53,8 +60,17 @@ public class TestBase {
         wd.get(url);
     }
 
-    @AfterClass
-    public void tearDown() {
-        wd.quit();
+
+    private void logout() {
+        wd.findElement(By.cssSelector("span.member-initials")).click();
+        wd.findElement(By.cssSelector("a.js-logout")).click();
+    }
+
+    public void login(String user, String password){
+        clickLogInButton();
+
+        enterUserName(user);
+        enterPassword(password);
+        confirmLogInButton();
     }
 }

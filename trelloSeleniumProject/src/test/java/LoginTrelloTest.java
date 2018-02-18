@@ -8,8 +8,13 @@ import org.openqa.selenium.*;
 
 public class LoginTrelloTest extends TestBase {
 
+@BeforeMethod
+        public void createPreconditions() {
+    openSite("https://trello.com");
+}
 
-    @Test
+
+    @Test (priority = 1)
     public void LoginTrelloTest() {
        // wd.findElement(By.xpath("//div[2]")).click();
         clickLogInButton();
