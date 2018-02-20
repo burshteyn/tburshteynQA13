@@ -1,10 +1,11 @@
+import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class RenameBoardTest extends TestBase {
     @BeforeClass
     public void precondition(){
-        login("elena.telran@yahoo.com", "12345");
+        login("elena.telran@yahoo.com", "12345.com");
 
     }
 
@@ -15,6 +16,6 @@ public class RenameBoardTest extends TestBase {
     }
 
     public void selectBoard() {
-        wd.findElement();
+        wd.findElement(By.cssSelector("span[title=BurshteynT]")).click();
     }
 }
