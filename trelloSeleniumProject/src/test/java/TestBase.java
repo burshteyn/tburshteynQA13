@@ -73,4 +73,29 @@ public class TestBase {
         enterPassword(password);
         confirmLogInButton();
     }
+
+    //Rename board methods
+
+    public void returnToHomePage() {
+        wd.findElement(By.cssSelector("span.header-btn-icon.icon-lg.icon-board-back-to-home.light")).click();
+    }
+
+    public void clickRenameBoardButton() {
+        wd.findElement(By.xpath("//input[@type='submit']")).click();
+    }
+
+    public void fillNewBoardTitle() {
+        wd.findElement(By.cssSelector("input.js-board-name.js-autofocus")).clear();
+        wd.findElement(By.cssSelector("input.js-board-name.js-autofocus")).click();
+        wd.findElement(By.cssSelector("input.js-board-name.js-autofocus")).sendKeys("Renamed");
+    }
+
+    public void clickOnTheBoardTitle() {
+        wd.findElement(By.cssSelector("a.board-header-btn.board-header-btn-name")).click();
+    }
+
+
+    public void selectBoard() {
+        wd.findElement(By.cssSelector("span[title=BurshteynT]")).click();
+    }
 }

@@ -12,10 +12,10 @@ public class RenameBoardTest extends TestBase {
     @Test
     public void testRenameBoard(){
         selectBoard();
-
+        clickOnTheBoardTitle();
+        fillNewBoardTitle();
+        clickRenameBoardButton();
+        returnToHomePage();
     }
 
-    public void selectBoard() {
-        wd.findElement(By.cssSelector("span[title=BurshteynT]")).click();
-    }
 }
