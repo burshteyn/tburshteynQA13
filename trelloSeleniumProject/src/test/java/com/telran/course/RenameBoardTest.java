@@ -1,4 +1,5 @@
-import org.openqa.selenium.By;
+package com.telran.course;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ public class RenameBoardTest extends TestBase {
     public void testRenameBoard(){
         selectBoard();
         clickOnTheBoardTitle();
-        fillNewBoardTitle();
+        fillNewBoardTitle(new BoardData("Renamed"));
         clickRenameBoardButton();
         returnToHomePage();
     }
