@@ -42,17 +42,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTrelloTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginTrelloTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/LoginTrelloTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -69,8 +59,8 @@
       <file leaf-file-name="RenameBoardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/RenameBoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,12 +68,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateBoardTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/CreateBoardTest.java">
+      <file leaf-file-name="BoardData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/BoardData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#2045#2046#0" expanded="true" />
+                <element signature="e#2120#2121#0" expanded="true" />
+                <element signature="e#2634#2635#0" expanded="true" />
+                <element signature="e#2714#2715#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +108,8 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#515#516#0" expanded="true" />
@@ -102,22 +119,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/ApplicationManager.java">
+      <file leaf-file-name="CreateBoardTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/CreateBoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BoardData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/BoardData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1380#1381#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -691,9 +702,10 @@
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateBoardTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/RenameBoardTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/TestBase.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/LoginTrelloTest.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/TestBase.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/CreateBoardTest.java" />
       </list>
     </option>
   </component>
@@ -797,7 +809,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CreateBoardTest.CreateBoardTestt">
+  <component name="RunManager" selected="TestNG.CreateBoardTest.CreateBoardTest (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -857,6 +869,38 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="CreateBoardTest.CreateBoardTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.telran.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="trelloSeleniumProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.telran.course" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.course.CreateBoardTest" />
+      <option name="METHOD_NAME" value="CreateBoardTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -954,33 +998,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LoginTrelloTest.ALoginTrelloTestNotValidMail" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="trelloSeleniumProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTrelloTest" />
-      <option name="METHOD_NAME" value="ALoginTrelloTestNotValidMail" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1015,19 +1032,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.LoginTrelloTest.ALoginTrelloTestNotValidMail" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginTrelloTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.CreateBoardTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTestt" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.LoginTrelloTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.CreateBoardTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTestt" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTest (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTestt" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CreateBoardTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.LoginTrelloTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginTrelloTest.ALoginTrelloTestNotValidMail" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTestt" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CreateBoardTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.CreateBoardTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.LoginTrelloTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1048,14 +1065,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateBoardTest - 2018.02.19 at 12h 51m 42s.xml">
-      <configuration name="CreateBoardTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateBoardTest_CreateBoardTest - 2018.02.19 at 12h 43m 55s.xml">
-      <configuration name="CreateBoardTest.CreateBoardTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CreateBoardTest_CreateBoardTest - 2018.02.19 at 12h 45m 14s.xml">
       <configuration name="CreateBoardTest.CreateBoardTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBoardTest_CreateBoardTest_(1) - 2018.02.21 at 20h 53m 03s.xml">
+      <configuration name="CreateBoardTest.CreateBoardTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBoardTest_CreateBoardTest_(1) - 2018.02.21 at 20h 56m 40s.xml">
+      <configuration name="CreateBoardTest.CreateBoardTest (1)" configurationId="TestNG" />
     </history-entry>
     <history-entry file="CreateBoardTest_CreateBoardTestt - 2018.02.19 at 12h 48m 34s.xml">
       <configuration name="CreateBoardTest.CreateBoardTestt" configurationId="TestNG" />
@@ -1085,12 +1102,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31345353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31206658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1136,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1333,7 +1350,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,50 +1512,29 @@
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateBoardTest" />
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="0">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/CreateBoardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/BoardData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/RenameBoardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
@@ -1551,6 +1551,48 @@
             <element signature="imports" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/CreateBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/RenameBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#2045#2046#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#2634#2635#0" expanded="true" />
+            <element signature="e#2714#2715#0" expanded="true" />
           </folding>
         </state>
       </provider>

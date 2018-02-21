@@ -76,8 +76,8 @@ public class ApplicationManager {
     }
 
     public void fillNewBoardTitle(BoardData boardData) {
-        wd.findElement(By.cssSelector("input.js-board-name.js-autofocus")).clear();
         wd.findElement(By.cssSelector("input.js-board-name.js-autofocus")).click();
+        wd.findElement(By.cssSelector("input.js-board-name.js-autofocus")).clear();
         wd.findElement(By.cssSelector("input.js-board-name.js-autofocus")).sendKeys(boardData.getRenamed());
     }
 

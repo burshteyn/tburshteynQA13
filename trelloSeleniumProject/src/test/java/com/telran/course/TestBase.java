@@ -22,10 +22,4 @@ public class TestBase extends ApplicationManager{
         stop();
     }
 
-    //__________________________________________
-
-
-    //Rename board methods
-
-
 }
