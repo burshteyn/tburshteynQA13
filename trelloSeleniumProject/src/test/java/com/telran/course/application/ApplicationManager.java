@@ -1,5 +1,6 @@
-package com.telran.course;
+package com.telran.course.application;
 
+import com.telran.course.model.BoardData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -8,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    FirefoxDriver wd;
+    public FirefoxDriver wd;
 
     public static boolean isAlertPresent(FirefoxDriver wd) {
         try {
@@ -29,28 +30,28 @@ public class ApplicationManager {
         wd.quit();
     }
 
-    protected void confirmLogInButton() {
+    public void confirmLogInButton() {
         wd.findElement(By.id("login")).click();
     }
 
-    protected void enterPassword(String password) {
+    public void enterPassword(String password) {
         wd.findElement(By.id("password")).click();
         wd.findElement(By.id("password")).clear();
         wd.findElement(By.id("password")).sendKeys(password);
     }
 
-    protected void enterUserName(String userName) {
+    public void enterUserName(String userName) {
         wd.findElement(By.id("user")).click();
         wd.findElement(By.id("user")).clear();
         wd.findElement(By.id("user")).sendKeys(userName);
     }
 
-    protected void clickLogInButton() {
+    public void clickLogInButton() {
 
         wd.findElement(By.linkText("Log In")).click();
     }
 
-    protected void openSite(String url) {
+    public void openSite(String url) {
         wd.get(url);
     }
 
@@ -72,7 +73,7 @@ public class ApplicationManager {
     }
 
     public void clickRenameBoardButton() {
-        wd.findElement(By.xpath("//input[@type='submit']")).click();
+        wd.findElement(By.xpath("//input[@type='submit'and@value='Rename']")).click();
     }
 
     public void fillNewBoardTitle(BoardData boardData) {

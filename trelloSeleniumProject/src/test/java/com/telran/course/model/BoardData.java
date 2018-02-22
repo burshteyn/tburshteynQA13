@@ -1,4 +1,4 @@
-package com.telran.course;
+package com.telran.course.model;
 
 public class BoardData {
     private final String renamed;
