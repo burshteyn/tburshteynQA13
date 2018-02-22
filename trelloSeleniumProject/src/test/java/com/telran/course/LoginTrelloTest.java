@@ -22,7 +22,7 @@ public class LoginTrelloTest extends TestBase {
         logout();
     }
 
-    private void logout() {
+    public void logout() {
         wd.findElement(By.cssSelector("span.member-initials")).click();
         wd.findElement(By.cssSelector("a.js-logout")).click();
     }

@@ -1,6 +1,7 @@
 package com.telran.course;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -10,9 +11,10 @@ public class CreateBoardTest extends TestBase{
     public void precondition(){
         login("elena.telran@yahoo.com", "12345.com");
 
+
     }
     @Test
-    public void CreateBoardTest() {
+    public void testCreateBoard() {
 
         clickPlusButton();
         clickCreateBoardValue();
@@ -20,6 +22,7 @@ public class CreateBoardTest extends TestBase{
         clickPrivateButton();
         clickPublicValue();
         clickCreateBoardButton();
+        returnToHomePage();
 
     }
 
@@ -51,6 +54,8 @@ public class CreateBoardTest extends TestBase{
     public void clickPlusButton() {
         wd.findElement(By.cssSelector("span.header-btn-icon.icon-lg.icon-add.light")).click();
     }
+
+
 
 
 }

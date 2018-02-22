@@ -54,7 +54,7 @@ public class ApplicationManager {
         wd.get(url);
     }
 
-    private void logout() {
+    public void logout() {
         wd.findElement(By.cssSelector("span.member-initials")).click();
         wd.findElement(By.cssSelector("a.js-logout")).click();
     }
@@ -86,6 +86,6 @@ public class ApplicationManager {
     }
 
     public void selectBoard() {
-        wd.findElement(By.cssSelector("span[title=BurshteynT]")).click();
+        wd.findElement(By.linkText("BurshteynT")).click();
     }
 }
