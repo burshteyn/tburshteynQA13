@@ -89,4 +89,8 @@ public class ApplicationManager {
     public void selectBoard() {
         wd.findElement(By.linkText("BurshteynT")).click();
     }
+
+    public void selectBoard2() {
+        wd.findElement(By.linkText("NewBoardBurshteyn")).click();
+    }
 }
