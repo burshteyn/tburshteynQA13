@@ -17,6 +17,8 @@ public class DeleteBoardTest extends TestBase {
         app.clickOnCloseBoardTitle();
         app.clickOntheCloseButton();
         app.returnToHomePage();
+        app.clickOnManePageEmptySpace();
+        app.logout();
 
 
     }

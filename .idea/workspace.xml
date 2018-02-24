@@ -57,54 +57,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeleteBoardTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/DeleteBoardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/application/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-              <folding>
-                <element signature="e#2805#2806#0" expanded="true" />
-                <element signature="e#2877#2878#0" expanded="true" />
-                <element signature="e#3362#3363#0" expanded="true" />
-                <element signature="e#3448#3449#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateBoardTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateBoardTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/CreateBoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="408">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -781,7 +742,7 @@
         <entry key="$PROJECT_DIR$/addressbook-selenium-test/build.gradle" value="2712930150" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-test/gradle/wrapper/gradle-wrapper.properties" value="975608090" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-test/settings.gradle" value="652935599" />
-        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="4558126584915" />
+        <entry key="$PROJECT_DIR$/addressbook-selenium-tests" value="0" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" value="2712930150" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/gradle/wrapper/gradle-wrapper.properties" value="975608090" />
         <entry key="$PROJECT_DIR$/addressbook-selenium-tests/settings.gradle" value="4019230670" />
@@ -1201,8 +1162,6 @@
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/LoginTrelloTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/TestBase.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/model/BoardData.java" />
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameBoardTest.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/test/java/GroupCreationTests.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-tests/src/main/java/com/tr/selenium/GroupCreationTests.java" />
@@ -1218,10 +1177,18 @@
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupCreationTests.java" />
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/CreateBoardTest.java" />
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/application/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LoginTrelloTest.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LogInNotValid.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/model/BoardData.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/model/ListData.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/application/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/CreateListTest.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/CreateBoardTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/DeleteBoardTest.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/DeleteListTest.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameBoardTest.java" />
+        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameListTest.java" />
       </list>
     </option>
   </component>
@@ -1308,6 +1275,15 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trelloSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -1353,7 +1329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DeleteBoardTest.testDeleteBoard">
+  <component name="RunManager" selected="TestNG.RenameListTest.testRenameList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1402,7 +1378,7 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="DeleteBoardTest.testDeleteBoard" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateBoardTest.testCreateBoard" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.telran.course.tests.*" />
@@ -1414,8 +1390,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.telran.course.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.course.tests.DeleteBoardTest" />
-      <option name="METHOD_NAME" value="testDeleteBoard" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.course.tests.CreateBoardTest" />
+      <option name="METHOD_NAME" value="testCreateBoard" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1434,20 +1410,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupCreationTests.GroupCreationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateListTest.testCreateList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="selenium.tests.*" />
+          <option name="PATTERN" value="com.telran.course.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="addressbook-selenium-test_test" />
+      <module name="trelloSeleniumProject_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.tests.GroupCreationTests" />
-      <option name="METHOD_NAME" value="GroupCreationTests" />
+      <option name="PACKAGE_NAME" value="com.telran.course.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.course.tests.CreateListTest" />
+      <option name="METHOD_NAME" value="testCreateList" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1466,19 +1442,19 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupDeletionTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RenameBoardTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="selenium.tests.*" />
+          <option name="PATTERN" value="com.telran.course.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="addressbook-selenium-test_test" />
+      <module name="trelloSeleniumProject_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.tests.GroupDeletionTest" />
+      <option name="PACKAGE_NAME" value="com.telran.course.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.course.tests.RenameBoardTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1498,22 +1474,22 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupDeletionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RenameBoardTest.testRenameBoard" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tr.selenium.tests.*" />
+          <option name="PATTERN" value="com.telran.course.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="addressbook-selenium-tests_main" />
+      <module name="trelloSeleniumProject_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.tr.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tr.selenium.tests.GroupDeletionTest" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="com.telran.course.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.course.tests.RenameBoardTest" />
+      <option name="METHOD_NAME" value="testRenameBoard" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1530,20 +1506,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupDeletionTest.testGroupDeletion" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RenameListTest.testRenameList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.tr.selenium.tests.*" />
+          <option name="PATTERN" value="com.telran.course.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="addressbook-selenium-tests_main" />
+      <module name="trelloSeleniumProject_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.tr.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tr.selenium.tests.GroupDeletionTest" />
-      <option name="METHOD_NAME" value="testGroupDeletion" />
+      <option name="PACKAGE_NAME" value="com.telran.course.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.telran.course.tests.RenameListTest" />
+      <option name="METHOD_NAME" value="testRenameList" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1596,19 +1572,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.GroupDeletionTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.GroupDeletionTest (1)" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.GroupCreationTests" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.DeleteBoardTest.testDeleteBoard" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.testCreateBoard" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.RenameBoardTest.testRenameBoard" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.RenameBoardTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CreateListTest.testCreateList" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.RenameListTest.testRenameList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.DeleteBoardTest.testDeleteBoard" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GroupCreationTests.GroupCreationTests" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.GroupDeletionTest (1)" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.GroupDeletionTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.RenameListTest.testRenameList" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CreateListTest.testCreateList" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CreateBoardTest.testCreateBoard" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.RenameBoardTest.testRenameBoard" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.RenameBoardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1629,34 +1605,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateBoardTest_testCreateBoard - 2018.02.23 at 09h 08m 07s.xml">
+    <history-entry file="CreateBoardTest_testCreateBoard - 2018.02.24 at 19h 29m 09s.xml">
       <configuration name="CreateBoardTest.testCreateBoard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateBoardTest_testCreateBoard - 2018.02.23 at 09h 11m 36s.xml">
+    <history-entry file="CreateBoardTest_testCreateBoard - 2018.02.24 at 19h 31m 38s.xml">
       <configuration name="CreateBoardTest.testCreateBoard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateBoardTest_testCreateBoard - 2018.02.23 at 09h 25m 10s.xml">
-      <configuration name="CreateBoardTest.testCreateBoard" configurationId="TestNG" />
+    <history-entry file="CreateListTest_testCreateList - 2018.02.24 at 19h 41m 38s.xml">
+      <configuration name="CreateListTest.testCreateList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteBoardTest_testDeleteBoard - 2018.02.23 at 19h 12m 20s.xml">
-      <configuration name="DeleteBoardTest.testDeleteBoard" configurationId="TestNG" />
+    <history-entry file="CreateListTest_testCreateList - 2018.02.24 at 19h 55m 04s.xml">
+      <configuration name="CreateListTest.testCreateList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests - 2018.02.23 at 11h 08m 15s.xml">
-      <configuration name="GroupCreationTests" configurationId="TestNG" />
+    <history-entry file="RenameBoardTest_testRenameBoard - 2018.02.24 at 18h 37m 15s.xml">
+      <configuration name="RenameBoardTest.testRenameBoard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_GroupCreationTests - 2018.02.23 at 17h 16m 25s.xml">
-      <configuration name="GroupCreationTests.GroupCreationTests" configurationId="TestNG" />
+    <history-entry file="RenameBoardTest_testRenameBoard - 2018.02.24 at 18h 38m 48s.xml">
+      <configuration name="RenameBoardTest.testRenameBoard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupDeletionTest - 2018.02.23 at 11h 55m 16s.xml">
-      <configuration name="GroupDeletionTest" configurationId="TestNG" />
+    <history-entry file="RenameBoardTest_testRenameBoard - 2018.02.24 at 18h 41m 03s.xml">
+      <configuration name="RenameBoardTest.testRenameBoard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupDeletionTest_(1) - 2018.02.23 at 17h 15m 34s.xml">
-      <configuration name="GroupDeletionTest (1)" configurationId="TestNG" />
+    <history-entry file="RenameBoardTest_testRenameBoard - 2018.02.24 at 18h 43m 17s.xml">
+      <configuration name="RenameBoardTest.testRenameBoard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupDeletionTest_testGroupDeletion - 2018.02.23 at 11h 56m 26s.xml">
-      <configuration name="GroupDeletionTest.testGroupDeletion" configurationId="TestNG" />
+    <history-entry file="RenameListTest_testRenameList - 2018.02.24 at 19h 45m 33s.xml">
+      <configuration name="RenameListTest.testRenameList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RenameListTest_testRenameList - 2018.02.23 at 09h 17m 26s.xml">
+    <history-entry file="RenameListTest_testRenameList - 2018.02.24 at 19h 57m 07s.xml">
       <configuration name="RenameListTest.testRenameList" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1678,7 +1654,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25192803" sideWeight="0.4950495" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231623" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15616967" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24871466" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1754,37 +1730,12 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LoginTrelloTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#215#216#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LoginTrelloTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1848,8 +1799,8 @@
           <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1867,7 +1818,7 @@
         <state relative-caret-position="255">
           <caret line="18" column="73" lean-forward="false" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1983,65 +1934,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/CreateBoardTest" />
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/model/BoardData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LogInNotValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/CreateListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameBoardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LoginTrelloTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#173#174#0" expanded="false" />
-            <element signature="e#215#216#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -2152,28 +2044,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/CreateBoardTest.java">
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/DeleteBoardTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/application/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-          <folding>
-            <element signature="e#2805#2806#0" expanded="true" />
-            <element signature="e#2877#2878#0" expanded="true" />
-            <element signature="e#3362#3363#0" expanded="true" />
-            <element signature="e#3448#3449#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2185,14 +2060,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LogInNotValid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/model/BoardData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/application/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="171" column="47" lean-forward="true" selection-start-line="171" selection-start-column="47" selection-end-line="171" selection-end-column="47" />
+          <folding>
+            <element signature="e#2892#2893#0" expanded="true" />
+            <element signature="e#2964#2965#0" expanded="true" />
+            <element signature="e#3449#3450#0" expanded="true" />
+            <element signature="e#3535#3536#0" expanded="true" />
+            <element signature="e#4848#4849#0" expanded="true" />
+            <element signature="e#4921#4922#0" expanded="true" />
+            <element signature="e#5572#5573#0" expanded="true" />
+            <element signature="e#5658#5659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LoginTrelloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/model/ListData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/CreateListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/DeleteBoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        <state relative-caret-position="289">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/DeleteListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/CreateBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,6 @@
 package com.telran.course.tests;
 
-import org.openqa.selenium.By;
+import com.telran.course.model.BoardData;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -16,11 +16,13 @@ public class CreateBoardTest extends TestBase {
 
         app.clickPlusButton();
         app.clickCreateBoardValue();
-        app.fillBoardTitle("BurshteynNewBoard");
+        app.fillBoardTitle(new BoardData("BurshteynNewBoard"));
         app.clickPrivateButton();
         app.clickPublicValue();
         app.clickCreateBoardButton();
         app.returnToHomePage();
+        app.clickOnManePageEmptySpace();
+        app.logout();
 
     }
 
