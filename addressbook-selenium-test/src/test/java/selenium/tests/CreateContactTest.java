@@ -10,6 +10,7 @@ public class CreateContactTest extends TestBase{
         app.clickAddNewButton();
         app.fillContactData(new ContactData("FirstSunny", "LastSunny"));
         app.submitContactCreaction();
+
     }
 
 

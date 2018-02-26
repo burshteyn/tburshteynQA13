@@ -60,27 +60,10 @@
       <file leaf-file-name="CreateContactTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/CreateContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="121" column="93" lean-forward="false" selection-start-line="121" selection-start-column="93" selection-end-line="121" selection-end-column="93" />
-              <folding>
-                <element signature="e#2697#2698#0" expanded="true" />
-                <element signature="e#2770#2771#0" expanded="true" />
-                <element signature="e#3259#3260#0" expanded="true" />
-                <element signature="e#3334#3335#0" expanded="true" />
-                <element signature="e#3375#3376#0" expanded="true" />
-                <element signature="e#3432#3433#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,9 +72,27 @@
       <file leaf-file-name="DeleteContactTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/DeleteContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="125" column="40" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
+              <folding>
+                <element signature="e#2697#2698#0" expanded="true" />
+                <element signature="e#2770#2771#0" expanded="true" />
+                <element signature="e#3259#3260#0" expanded="true" />
+                <element signature="e#3334#3335#0" expanded="true" />
+                <element signature="e#3375#3376#0" expanded="true" />
+                <element signature="e#3432#3433#0" expanded="true" />
+                <element signature="e#3833#3834#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +129,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/application/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -1251,10 +1262,11 @@
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameListTest.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupCreationTests.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/model/ContactData.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/CreateContactTest.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/ChangeContactTest.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/DeleteContactTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/CreateContactTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupDeletionTest1.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/DeleteContactTest.java" />
       </list>
     </option>
   </component>
@@ -1264,7 +1276,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="808" />
     <option name="y" value="6" />
     <option name="width" value="804" />
@@ -1336,6 +1348,45 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trelloSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trelloSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trelloSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trelloSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trelloSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="firstSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trelloSeleniumProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1632,8 +1683,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.DeleteContactTest.TestDeleteContact" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ChangeContactTest.ContactChangeTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CreateContactTest.TestContactCreate" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CreateContactTest.TestContactCreate" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ChangeContactTest.ContactChangeTest" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.RenameListTest.testRenameList" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.CreateListTest.testCreateList" />
       </list>
@@ -1659,14 +1710,8 @@
     <history-entry file="ChangeContactTest_ContactChangeTest - 2018.02.25 at 02h 52m 51s.xml">
       <configuration name="ChangeContactTest.ContactChangeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateContactTest_TestContactCreate - 2018.02.25 at 01h 12m 32s.xml">
+    <history-entry file="CreateContactTest_TestContactCreate - 2018.02.26 at 17h 00m 46s.xml">
       <configuration name="CreateContactTest.TestContactCreate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateContactTest_TestContactCreate - 2018.02.25 at 01h 15m 32s.xml">
-      <configuration name="CreateContactTest.TestContactCreate" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateListTest_testCreateList - 2018.02.24 at 19h 55m 04s.xml">
-      <configuration name="CreateListTest.testCreateList" configurationId="TestNG" />
     </history-entry>
     <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.25 at 03h 07m 02s.xml">
       <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
@@ -1680,15 +1725,21 @@
     <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.25 at 03h 23m 57s.xml">
       <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RenameListTest_testRenameList - 2018.02.24 at 19h 45m 33s.xml">
-      <configuration name="RenameListTest.testRenameList" configurationId="TestNG" />
+    <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.26 at 17h 02m 03s.xml">
+      <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RenameListTest_testRenameList - 2018.02.24 at 19h 57m 07s.xml">
-      <configuration name="RenameListTest.testRenameList" configurationId="TestNG" />
+    <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.26 at 17h 43m 48s.xml">
+      <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.26 at 17h 44m 59s.xml">
+      <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.26 at 17h 52m 24s.xml">
+      <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1707,7 +1758,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25192803" sideWeight="0.4950495" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231623" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15616967" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15616967" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24871466" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1787,13 +1838,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/LogInNotValid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -2141,7 +2185,7 @@
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2151,12 +2195,12 @@
         <state relative-caret-position="85">
           <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#432#433#0" expanded="false" />
+            <element signature="e#470#471#0" expanded="false" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#576#577#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2171,11 +2215,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/application/ApplicationManager.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/CreateContactTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="182" column="112" lean-forward="false" selection-start-line="182" selection-start-column="76" selection-end-line="182" selection-end-column="112" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2187,28 +2233,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/CreateContactTest.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupDeletionTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/application/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/DeleteContactTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="121" column="93" lean-forward="false" selection-start-line="121" selection-start-column="93" selection-end-line="121" selection-end-column="93" />
+        <state relative-caret-position="221">
+          <caret line="125" column="40" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
           <folding>
             <element signature="e#2697#2698#0" expanded="true" />
             <element signature="e#2770#2771#0" expanded="true" />
@@ -2216,6 +2268,7 @@
             <element signature="e#3334#3335#0" expanded="true" />
             <element signature="e#3375#3376#0" expanded="true" />
             <element signature="e#3432#3433#0" expanded="true" />
+            <element signature="e#3833#3834#0" expanded="true" />
           </folding>
         </state>
       </provider>
