@@ -119,13 +119,10 @@ public class ApplicationManager {
     }
 
     public void clickOnDeleteButton() {
-    wd.findElement(By.xpath("//form[@action=\"delete.php\"]")).findElement(By.xpath("..")).click();
+    wd.findElement(By.xpath("//form[@action=\"delete.php\"]")).findElement(By.xpath("//input[@value=\"Delete\"]")).click();
 
     }
 
-    public void confirmContactDelete() {
-        wd.switchTo().alert().accept();
-    }
 }
 
 

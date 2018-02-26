@@ -8,7 +8,5 @@ public class DeleteContactTest extends TestBase{
     public void TestDeleteContact(){
         app.clickOnEditButton();
         app.clickOnDeleteButton();
-        app.confirmContactDelete();
-
     }
 }
