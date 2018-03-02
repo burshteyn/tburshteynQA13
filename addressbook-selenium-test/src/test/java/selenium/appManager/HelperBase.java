@@ -19,17 +19,15 @@ public class HelperBase {
 
     public void type(By locator, String text) {
         click(locator);
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
-    }
-
-    public static boolean isAlertPresent(FirefoxDriver wd) {
-        try {
-            wd.switchTo().alert();
-            return true;
-        } catch (NoAlertPresentException e) {
-            return false;
+        if(text!=null){
+            String existText = wd.findElement(locator).getAttribute("value");
+            if(!text.equals(existText)){
+                wd.findElement(locator).clear();
+                wd.findElement(locator).sendKeys(text);
+            }
         }
     }
+
+
 
 }

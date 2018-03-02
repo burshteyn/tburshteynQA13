@@ -52,11 +52,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContactCreationTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/ContactCreationTest.java">
+      <file leaf-file-name="NavigationHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/NavigationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/GroupHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+              <folding>
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/HelperBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupModificationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupModificationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1138,7 +1189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/CreateBoardTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/RenameBoardTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/CreateListTest.java" />
@@ -1172,7 +1222,6 @@
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameBoardTest.java" />
         <option value="$PROJECT_DIR$/trelloSeleniumProject/src/test/java/com/telran/course/tests/RenameListTest.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupDeletionTest1.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/model/GroupData.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupCreationTests.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/DeleteContactTest.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/CreateContactTest.java" />
@@ -1180,15 +1229,17 @@
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/HeperBase.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/GroupHelper.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/SessionHelper.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/HelperBase.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/model/ContactData.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ContactHelper.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/NavigationHelper.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/ContactCreationTest.java" />
-        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupCreationTest.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupDeletionTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/model/GroupData.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/ContactDeletionTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/ContactCreationTest.java" />
         <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupModificationTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupCreationTest.java" />
+        <option value="$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -1198,7 +1249,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="782" />
     <option name="y" value="1" />
     <option name="width" value="826" />
@@ -1324,7 +1375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationTest.TestContactCreate">
+  <component name="RunManager" selected="TestNG.GroupModificationTest.modifyGroupTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1501,20 +1552,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="RenameListTest.testRenameList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupModificationTest.modifyGroupTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.telran.course.tests.*" />
+          <option name="PATTERN" value="selenium.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="trelloSeleniumProject_test" />
+      <module name="addressbook-selenium-test_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.telran.course.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.telran.course.tests.RenameListTest" />
-      <option name="METHOD_NAME" value="testRenameList" />
+      <option name="PACKAGE_NAME" value="selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.tests.GroupModificationTest" />
+      <option name="METHOD_NAME" value="modifyGroupTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1567,19 +1618,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.RenameListTest.testRenameList" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.ContactCreationTest.TestContactCreate" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ContactModificationTest.ContactChangeTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ContactDeletionTest.TestDeleteContact" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.GroupCreationTest.TestGroupCreation" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.ContactCreationTest.TestContactCreate" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ContactModificationTest.ContactChangeTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ContactDeletionTest.TestDeleteContact" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GroupCreationTest.TestGroupCreation" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.GroupModificationTest.modifyGroupTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ContactCreationTest.TestContactCreate" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.GroupModificationTest.modifyGroupTest" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.GroupCreationTest.TestGroupCreation" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ContactDeletionTest.TestDeleteContact" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ContactModificationTest.ContactChangeTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.RenameListTest.testRenameList" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ContactCreationTest.TestContactCreate" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ContactDeletionTest.TestDeleteContact" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ContactModificationTest.ContactChangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1600,39 +1651,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateContactTest_TestContactCreate - 2018.03.01 at 22h 48m 02s.xml">
-      <configuration name="CreateContactTest.TestContactCreate" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest_TestContactCreate - 2018.03.02 at 11h 33m 29s.xml">
+      <configuration name="ContactCreationTest.TestContactCreate" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateContactTest_TestContactCreate - 2018.03.01 at 23h 17m 25s.xml">
-      <configuration name="CreateContactTest.TestContactCreate" configurationId="TestNG" />
+    <history-entry file="GroupCreationTest_TestGroupCreation - 2018.03.02 at 11h 49m 37s.xml">
+      <configuration name="GroupCreationTest.TestGroupCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.26 at 18h 00m 50s.xml">
-      <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
+    <history-entry file="GroupCreationTest_TestGroupCreation - 2018.03.02 at 11h 50m 26s.xml">
+      <configuration name="GroupCreationTest.TestGroupCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.26 at 18h 01m 31s.xml">
-      <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
+    <history-entry file="GroupModificationTest_modifyGroupTest - 2018.03.02 at 11h 34m 11s.xml">
+      <configuration name="GroupModificationTest.modifyGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DeleteContactTest_TestDeleteContact - 2018.02.26 at 19h 22m 10s.xml">
-      <configuration name="DeleteContactTest.TestDeleteContact" configurationId="TestNG" />
+    <history-entry file="GroupModificationTest_modifyGroupTest - 2018.03.02 at 11h 34m 54s.xml">
+      <configuration name="GroupModificationTest.modifyGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_TestGroupCreation - 2018.02.27 at 19h 54m 44s.xml">
-      <configuration name="GroupCreationTests.TestGroupCreation" configurationId="TestNG" />
+    <history-entry file="GroupModificationTest_modifyGroupTest - 2018.03.02 at 11h 36m 34s.xml">
+      <configuration name="GroupModificationTest.modifyGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_TestGroupCreation - 2018.02.27 at 20h 17m 50s.xml">
-      <configuration name="GroupCreationTests.TestGroupCreation" configurationId="TestNG" />
+    <history-entry file="GroupModificationTest_modifyGroupTest - 2018.03.02 at 11h 39m 39s.xml">
+      <configuration name="GroupModificationTest.modifyGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_TestGroupCreation - 2018.02.27 at 20h 33m 30s.xml">
-      <configuration name="GroupCreationTests.TestGroupCreation" configurationId="TestNG" />
+    <history-entry file="GroupModificationTest_modifyGroupTest - 2018.03.02 at 11h 44m 05s.xml">
+      <configuration name="GroupModificationTest.modifyGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_TestGroupCreation - 2018.02.27 at 20h 35m 02s.xml">
-      <configuration name="GroupCreationTests.TestGroupCreation" configurationId="TestNG" />
+    <history-entry file="GroupModificationTest_modifyGroupTest - 2018.03.02 at 11h 48m 41s.xml">
+      <configuration name="GroupModificationTest.modifyGroupTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreationTests_TestGroupCreation - 2018.03.01 at 22h 48m 57s.xml">
-      <configuration name="GroupCreationTests.TestGroupCreation" configurationId="TestNG" />
+    <history-entry file="GroupModificationTest_modifyGroupTest - 2018.03.02 at 11h 55m 00s.xml">
+      <configuration name="GroupModificationTest.modifyGroupTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1643,19 +1694,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31117398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3106796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25385603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2062982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32038835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40681234" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3481276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1674,23 +1725,23 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32038835" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3481276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31206658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3106796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.076398365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2062982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231623" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40860215" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40681234" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -1706,7 +1757,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1872,108 +1923,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/model/GroupData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/HeperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/GroupHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1107#1108#0" expanded="false" />
-            <element signature="e#1152#1153#0" expanded="false" />
-            <element signature="e#1207#1208#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/model/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ContactHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1986,14 +1939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupModificationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupDeletionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -2002,11 +1947,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupCreationTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/model/ContactData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2020,16 +1978,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/ContactDeletionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        <state relative-caret-position="119">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/model/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/ContactCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="306">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupCreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/appManager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-selenium-test/src/test/java/selenium/tests/GroupModificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>

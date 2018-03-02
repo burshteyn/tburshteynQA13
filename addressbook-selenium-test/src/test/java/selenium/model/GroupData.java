@@ -5,11 +5,6 @@ public class GroupData {
     private String groupHeader;
     private String groupFooter;
 
-//    public GroupData(String groupName, String groupHeader, String groupFooter) {
-//        this.groupName = groupName;
-//        this.groupHeader = groupHeader;
-//        this.groupFooter = groupFooter;
-//    }
 
     public GroupData withGroupName(String groupName) {
         this.groupName = groupName;

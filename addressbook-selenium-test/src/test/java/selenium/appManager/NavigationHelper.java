@@ -11,13 +11,17 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void goToGroupsPage() {
+        click(By.xpath("//a[@href='group.php']"));
 
-        wd.findElement(By.linkText("groups")).click();
     }
 
     public void clickAddNewButton() {
 
         click(By.xpath("//a[@href='edit.php']"));
+    }
+
+    public void goToHomePage(){
+        click(By.cssSelector("a[href='./']"));
     }
 
 

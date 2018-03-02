@@ -20,12 +20,22 @@ public class ApplicationManager {
 
     FirefoxDriver wd;
 
+    public static boolean isAlertPresent(FirefoxDriver wd) {
+        try {
+            wd.switchTo().alert();
+            return true;
+        } catch (NoAlertPresentException e) {
+            return false;
+        }
+    }
+
     public void start() {
         wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(wd);
         sessionHelper = new SessionHelper(wd);
         contactHelper = new ContactHelper(wd);
+        navigationHelper = new NavigationHelper(wd);
 
         openSite();
         sessionHelper.logIn("admin", "secret");

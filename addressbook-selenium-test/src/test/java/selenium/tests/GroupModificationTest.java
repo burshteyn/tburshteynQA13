@@ -12,12 +12,11 @@ public class GroupModificationTest extends TestBase{
 
         int before = app.getGroupHelper().getGroupCount();
 
-        app.getGroupHelper().returnToGroupsPage();
         app.getGroupHelper().initGroupModification();
         app.getGroupHelper().fillGroupForm(new GroupData()
-                .withGroupName("rename")
+                .withGroupName("1")
                 .withGroupHeader("rename")
-                .withGroupFooter("reName"));
+                .withGroupFooter("rename"));
         app.getGroupHelper().submitGroupModification();
         app.getGroupHelper().returnToGroupsPage();
 
