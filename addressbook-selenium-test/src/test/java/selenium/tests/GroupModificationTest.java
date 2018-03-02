@@ -8,7 +8,7 @@ public class GroupModificationTest extends TestBase{
 
     @Test
     public void modifyGroupTest(){
-        app.goToGroupsPage();
+        app.getNavigationHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupCount();
 

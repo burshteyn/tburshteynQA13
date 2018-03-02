@@ -16,17 +16,9 @@ public class ApplicationManager {
     private GroupHelper groupHelper;
     private SessionHelper sessionHelper;
     private ContactHelper contactHelper;
+    private NavigationHelper navigationHelper;
 
     FirefoxDriver wd;
-
-    public static boolean isAlertPresent(FirefoxDriver wd) {
-        try {
-            wd.switchTo().alert();
-            return true;
-        } catch (NoAlertPresentException e) {
-            return false;
-        }
-    }
 
     public void start() {
         wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
@@ -34,6 +26,7 @@ public class ApplicationManager {
         groupHelper = new GroupHelper(wd);
         sessionHelper = new SessionHelper(wd);
         contactHelper = new ContactHelper(wd);
+
         openSite();
         sessionHelper.logIn("admin", "secret");
     }
@@ -61,10 +54,10 @@ public class ApplicationManager {
         return sessionHelper;
     }
 
-    public void goToGroupsPage() {
-
-        wd.findElement(By.linkText("groups")).click();
+    public NavigationHelper getNavigationHelper() {
+        return navigationHelper;
     }
+
 
 
 }

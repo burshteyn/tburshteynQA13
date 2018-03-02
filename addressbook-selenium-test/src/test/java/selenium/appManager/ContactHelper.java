@@ -11,7 +11,7 @@ public class ContactHelper extends HelperBase{
 
         super(wd);
     }
-    
+
     public void submitContactCreaction() {
 
         click(By.xpath("//input[@type='submit']"));
@@ -38,10 +38,6 @@ public class ContactHelper extends HelperBase{
         type(By.name("lastname"), contactData.getLastName());
     }
 
-    public void clickAddNewButton() {
-
-        click(By.xpath("//a[@href='edit.php']"));
-    }
 
     public int getContactCount() {
         return wd.findElements(By.name("selected[]")).size();

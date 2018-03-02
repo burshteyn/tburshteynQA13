@@ -3,7 +3,7 @@ package selenium.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class DeleteContactTest extends TestBase{
+public class ContactDeletionTest extends TestBase{
 
     @Test
     public void TestDeleteContact(){

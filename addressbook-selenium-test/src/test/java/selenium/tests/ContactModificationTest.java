@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import selenium.model.ContactData;
 
-public class ChangeContactTest extends TestBase{
+public class ContactModificationTest extends TestBase{
     @Test
 
     public void ContactChangeTest(){

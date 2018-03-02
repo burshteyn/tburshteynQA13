@@ -4,13 +4,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import selenium.model.ContactData;
 
-public class CreateContactTest extends TestBase{
+public class ContactCreationTest extends TestBase{
 
     @Test
     public void TestContactCreate(){
         int before = app.getContactHelper().getContactCount();
 
-        app.getContactHelper().clickAddNewButton();
+        app.getNavigationHelper().clickAddNewButton();
         app.getContactHelper().fillContactData(new ContactData()
                 .withFirstName("FirstSunny")
                 .withLastName("LastSunny"));

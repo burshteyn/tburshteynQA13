@@ -4,11 +4,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import selenium.model.GroupData;
 
-public class GroupCreationTests extends TestBase {
+public class GroupCreationTest extends TestBase {
 
     @Test
     public void TestGroupCreation() {
-        app.goToGroupsPage();
+        app.getNavigationHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupCount();
 
