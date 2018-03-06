@@ -23,6 +23,8 @@ public class GroupCreationTest extends TestBase {
         int after = app.getGroupHelper().getGroupCount();
         Assert.assertEquals(after,before+1);
 
+        app.getNavigationHelper().goToHomePage();
+
     }
 
 }

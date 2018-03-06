@@ -1,13 +1,14 @@
 package selenium.appManager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import selenium.model.GroupData;
 
 public class GroupHelper extends HelperBase{
 
 
-    public GroupHelper(FirefoxDriver wd) {
+    public GroupHelper(WebDriver wd) {
 
         super(wd);
     }
@@ -57,6 +58,12 @@ public class GroupHelper extends HelperBase{
         click(By.xpath("//*[@value='Update']"));
     }
 
+    public void createGroup() {
+    }
+
+    public boolean isGroupExist() {
+        return wd.findElement(By.name("selected[]"))
+    }
 }
 
 
