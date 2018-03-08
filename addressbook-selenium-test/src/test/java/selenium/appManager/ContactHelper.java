@@ -44,4 +44,37 @@ public class ContactHelper extends HelperBase{
         return wd.findElements(By.name("selected[]")).size();
 
     }
+
+    public void clickAddNewButton () {
+
+        click(By.xpath("//a[@href='edit.php']"));
+    }
+
+    public boolean isContactExist() {
+        return isElementPresent((By.name("selected[]")));
+
+    }
+
+    public void createContact() {
+        clickAddNewButton();
+        fillContactData(new ContactData()
+                .withFirstName("FirstSunny")
+                .withLastName("LastSunny"));
+        submitContactCreaction();
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

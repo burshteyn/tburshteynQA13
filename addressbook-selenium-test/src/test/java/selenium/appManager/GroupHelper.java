@@ -59,10 +59,17 @@ public class GroupHelper extends HelperBase{
     }
 
     public void createGroup() {
+        initGroupCreation();
+        fillGroupForm(new GroupData()
+                .withGroupName("test1")
+                .withGroupHeader("Test1Header")
+                .withGroupFooter("Test1Footer"));
+        submitGroupCreation();
+        returnToGroupsPage();
     }
 
     public boolean isGroupExist() {
-        return wd.findElement(By.name("selected[]"))
+       return isElementPresent((By.name("selected[]")));
     }
 }
 

@@ -8,9 +8,10 @@ public class ContactCreationTest extends TestBase{
 
     @Test
     public void TestContactCreate(){
+        app.getNavigationHelper().goToHomePage();
         int before = app.getContactHelper().getContactCount();
 
-        app.getNavigationHelper().clickAddNewButton();
+        app.getContactHelper().clickAddNewButton();
         app.getContactHelper().fillContactData(new ContactData()
                 .withFirstName("FirstSunny")
                 .withLastName("LastSunny"));
@@ -18,8 +19,6 @@ public class ContactCreationTest extends TestBase{
 
         int after = app.getContactHelper().getContactCount();
         Assert.assertEquals(after, before+1);
-
-        app.getNavigationHelper().goToHomePage();
 
     }
 

@@ -22,12 +22,6 @@ public class NavigationHelper extends HelperBase {
         click(By.xpath("//a[@href='group.php']"));
     }
 
-
-    public void clickAddNewButton () {
-
-        click(By.xpath("//a[@href='edit.php']"));
-    }
-
     public void goToHomePage () {
         if(isElementPresent(By.id("maintable"))){
             return;

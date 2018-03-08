@@ -8,6 +8,12 @@ public class ContactModificationTest extends TestBase{
     @Test
 
     public void ContactChangeTest(){
+        app.getNavigationHelper().goToHomePage();
+
+        if(!app.getContactHelper().isContactExist()){
+            app.getContactHelper().createContact();
+
+        }
         int before = app.getContactHelper().getContactCount();
 
         app.getContactHelper().clickOnEditButton();
@@ -18,8 +24,6 @@ public class ContactModificationTest extends TestBase{
 
         int after = app.getContactHelper().getContactCount();
         Assert.assertEquals(after, before );
-
-        app.getNavigationHelper().goToHomePage();
 
     }
 
