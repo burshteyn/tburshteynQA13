@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tr.selenium.tests.GroupModificationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-12T18:48:59" hostname="asus_k750j" time="39.406">
+  <properties/>
+  <testcase name="modifyGroupTest" classname="com.tr.selenium.tests.GroupModificationTest" time="39.406"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
