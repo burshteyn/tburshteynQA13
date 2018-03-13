@@ -1,8 +1,16 @@
 package com.tr.selenium.model;
 
 public class ContactData {
-    private String firstName;
-    private String lastName;
+    String firstName;
+    String lastName;
+    String group;
+
+
+
+    public ContactData withGroup(String group) {
+        this.group = group;
+        return this;
+    }
 
     public ContactData withFirstName(String firstName) {
         this.firstName = firstName;
@@ -15,11 +23,17 @@ public class ContactData {
     }
 
     public String getFirstName() {
+
         return firstName;
     }
 
     public String getLastName() {
+
         return lastName;
+    }
+
+    public String getGroup() {
+        return group;
     }
 
 

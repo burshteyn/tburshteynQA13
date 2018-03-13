@@ -3,6 +3,7 @@ package com.tr.selenium.appManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import com.tr.selenium.model.ContactData;
+import org.openqa.selenium.support.ui.Select;
 
 public class ContactHelper extends HelperBase{
 
@@ -35,6 +36,9 @@ public class ContactHelper extends HelperBase{
     public void fillContactData(ContactData contactData) {
         type(By.name("firstname"), contactData.getFirstName());
         type(By.name("lastname"), contactData.getLastName());
+        //for drop down lists
+        new Select(wd.findElement(By.name("new_group")))
+                .selectByVisibleText(contactData.getGroup());
     }
 
 

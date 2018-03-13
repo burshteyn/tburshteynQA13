@@ -14,7 +14,8 @@ public class ContactCreationTest extends TestBase{
         app.getContactHelper().clickAddNewButton();
         app.getContactHelper().fillContactData(new ContactData()
                 .withFirstName("FirstSunny")
-                .withLastName("LastSunny"));
+                .withLastName("LastSunny")
+                .withGroup("test1"));
         app.getContactHelper().submitContactCreaction();
 
         int after = app.getContactHelper().getContactCount();

@@ -14,3 +14,27 @@ dependencies {
     testCompile 'org.seleniumhq.selenium:selenium-java:3.9.1'
     testCompile 'org.testng:testng:6.14.2'
 }
+task testBoards(type:Test){
+    useTestNG{
+        suites 'src/test/resources/testng-boards.xml'
+    }
+    systemProperty 'browser', "${browser}"
+
+}
+
+task testLists(type:Test){
+    useTestNG{
+        suites 'src/test/resources/testng-lists.xml'
+    }
+
+    systemProperty 'browser', "${browser}"
+
+}
+task testLogins(type:Test){
+    useTestNG{
+        suites 'src/test/resources/testng-logins.xml'
+    }
+
+    systemProperty 'browser', "${browser}"
+
+}

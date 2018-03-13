@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tr.selenium.tests.GroupDeletionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-12T19:35:05" hostname="asus_k750j" time="62.466">
-  <properties/>
-  <testcase name="testGroupDeletion" classname="com.tr.selenium.tests.GroupDeletionTest" time="62.466"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
