@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class DeleteListTest extends TestBase {
     @BeforeClass
     public void precondition(){
-        app.login("elena.telran@yahoo.com", "12345.com");
+        app.login(app.properties.getProperty("web.adminLogin"), app.properties.getProperty("web.adminPassword"));
     }
 
     @Test

@@ -8,10 +8,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterClass;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     public FirefoxDriver wd;
+    public Properties properties;
+
+
 
     public static boolean isAlertPresent(FirefoxDriver wd) {
         try {
@@ -22,15 +29,23 @@ public class ApplicationManager {
         }
     }
 
-    public void init() {
+    public void init() throws IOException {
+        String target = properties.getProperty("target", "local");
+        properties.load(new FileReader(String.format("src/test/resources/%s.properties",target)));
+        properties = new Properties();
         wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        openSite("https://trello.com");
+        openSite(properties.getProperty("web.baseUrl"));
     }
 
     public void stop() {
 
         wd.quit();
+    }
+
+    public void openSite(String url) {
+
+        wd.get(url);
     }
 
     public void confirmLogInButton() {
@@ -55,10 +70,6 @@ public class ApplicationManager {
         wd.findElement(By.linkText("Log In")).click();
     }
 
-    public void openSite(String url) {
-
-        wd.get(url);
-    }
 
 
     public void logout() {
@@ -98,6 +109,7 @@ public class ApplicationManager {
     }
 
     public void selectBoardMethod_2() {
+
         wd.findElement(By.linkText("BurshteynNewBoard")).click();
     }
 
@@ -115,6 +127,7 @@ public class ApplicationManager {
 
 
     public void clickOntheCloseButton() {
+
         wd.findElement(By.cssSelector("input.js-confirm.full.negate")).click();
     }
 
@@ -155,6 +168,7 @@ public class ApplicationManager {
     }
 
     public void clickOnArchiveThisListTitle() {
+
         wd.findElement(By.cssSelector("a.js-close-list")).click();
     }
 
@@ -175,6 +189,7 @@ public class ApplicationManager {
     }
 
     public void clickOnManePageEmptySpace(){
+
         wd.findElement(By.xpath("//div[@class='member-boards-view']")).click();
     }
 
