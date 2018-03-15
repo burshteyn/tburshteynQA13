@@ -39,6 +39,7 @@ public class ContactHelper extends HelperBase{
         //for drop down lists
         new Select(wd.findElement(By.name("new_group")))
                 .selectByVisibleText(contactData.getGroup());
+        attach(By.name("photo"), contactData.getPhoto());
     }
 
 
