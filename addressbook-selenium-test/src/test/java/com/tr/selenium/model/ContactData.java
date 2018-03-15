@@ -1,10 +1,18 @@
 package com.tr.selenium.model;
 
+import java.io.File;
+
 public class ContactData {
     String firstName;
     String lastName;
     String group;
+    File photo;
 
+
+    public ContactData withPhoto(File photo) {
+        this.photo = photo;
+        return this;
+    }
 
 
     public ContactData withGroup(String group) {
@@ -34,6 +42,10 @@ public class ContactData {
 
     public String getGroup() {
         return group;
+    }
+
+    public File getPhoto() {
+        return photo;
     }
 
 
