@@ -18,7 +18,7 @@ public class RenameBoardTest extends TestBase {
         app.fillNewBoardTitle(new BoardData("BurshteynRenamed"));
         app.clickRenameBoardButton();
         app.returnToHomePage();
-        app.clickOnManePageEmptySpace();
+        app.clickOnMainPageEmptySpace();
         app.logout();
     }
 

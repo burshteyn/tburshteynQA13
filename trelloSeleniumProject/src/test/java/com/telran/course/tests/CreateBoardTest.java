@@ -21,7 +21,7 @@ public class CreateBoardTest extends TestBase {
         app.clickPublicValue();
         app.clickCreateBoardButton();
         app.returnToHomePage();
-        app.clickOnManePageEmptySpace();
+        app.clickOnMainPageEmptySpace();
         app.logout();
 
     }

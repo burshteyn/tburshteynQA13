@@ -1,7 +1,6 @@
 package com.telran.course.tests;
 
 import com.telran.course.model.ListData;
-import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -18,7 +17,7 @@ public class CreateListTest extends TestBase {
         app.clickOnAddListField(new ListData("NewListBurshteyn"));
         app.clickOnTheSaveListButton();
         app.returnToHomePage();
-        app.clickOnManePageEmptySpace();
+        app.clickOnMainPageEmptySpace();
         app.logout();
 
     }

@@ -1,6 +1,5 @@
 package com.telran.course.tests;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -16,7 +15,7 @@ public class DeleteListTest extends TestBase {
         app.clickOnMoreOptionsDropDownList();
         app.clickOnArchiveThisListTitle();
         app.returnToHomePage();
-        app.clickOnManePageEmptySpace();
+        app.clickOnMainPageEmptySpace();
         app.logout();
 
     }
