@@ -37,7 +37,7 @@ public class ApplicationManager {
         if(browser.equals(BrowserType.FIREFOX)){
             wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
         }else if(browser.equals(BrowserType.CHROME)){
-            wd = 
+            wd =
         }
 
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

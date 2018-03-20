@@ -1,13 +1,17 @@
 package com.tr.selenium.tests;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.tr.selenium.model.GroupData;
 
 public class GroupCreationTest extends TestBase {
+    Logger logger = LoggerFactory.getLogger(GroupCreationTest.class);
 
     @Test
-    public void TestGroupCreation() {
+    public void testGroupCreation() {
+        logger.info("Start test testGroupCreation");
         app.getNavigationHelper().goToGroupsPage();
 
         int before = app.getGroupHelper().getGroupCount();
@@ -22,6 +26,7 @@ public class GroupCreationTest extends TestBase {
 
         int after = app.getGroupHelper().getGroupCount();
         Assert.assertEquals(after,before+1);
+        logger.info("Stop test testGroupCreation");
 
 
     }
