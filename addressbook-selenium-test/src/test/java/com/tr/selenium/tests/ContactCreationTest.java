@@ -14,7 +14,7 @@ public class ContactCreationTest extends TestBase{
         int before = app.getContactHelper().getContactCount();
 
         app.getContactHelper().clickAddNewButton();
-        File photo = new File("src/test/resources/catCat.jpg");
+        File photo = new File("addressbook-selenium-test/src/test/resources/catCat.jpg");
         app.getContactHelper().fillContactData(new ContactData()
                 .withFirstName("FirstSunny")
                 .withLastName("LastSunny")

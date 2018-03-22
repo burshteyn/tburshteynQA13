@@ -51,6 +51,11 @@ public class ApplicationManager {
                 properties.getProperty("web.adminPwd"));
     }
 
+    public void getBrowserLog(){
+        System.out.println(wd.manage().logs().getAvailableLogTypes());
+        wd.manage().logs().get("browser").forEach(l -> System.out.println(l)); //Lyamda
+    }
+
     public void openSite(String url) {
 
         wd.get(url);

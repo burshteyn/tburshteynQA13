@@ -30,6 +30,7 @@ public class TestBase {
 
     @BeforeMethod
     public void startLog(Method m){
+        app.getBrowserLog();
         logger.info("Start test " + m.getName());
     }
 
